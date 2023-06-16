@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-for file in /alu-shell/processes_and_signals/*
+for file in /alu-shell/processes_and_signal/*
 do
 	echo "#!/usr/bin/env bash" > $(file)
 done
